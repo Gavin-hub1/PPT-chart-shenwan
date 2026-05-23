@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="tabChartFormatter" label="&#x7533;&#x4E07;&#x7814;&#x62A5;&#x683C;&#x5F0F;">
+        <group id="grpChartFormatter" label="&#x56FE;&#x8868;&#x683C;&#x5F0F;">
+          <button
+            id="btnFormatSelectedCharts"
+            label="&#x7533;&#x4E07;&#x7814;&#x62A5;&#x683C;&#x5F0F;"
+            size="large"
+            imageMso="ChartStylesGallery"
+            onAction="FormatSelectedCharts"
+            screentip="&#x7533;&#x4E07;&#x7814;&#x62A5;&#x683C;&#x5F0F;"
+            supertip="Format selected charts without changing data, number formats, or axis assignment." />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
